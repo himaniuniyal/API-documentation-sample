@@ -24,3 +24,27 @@ GET https://jsonplaceholder.typicode.com/users
     "email": "leanne@example.com"
   }
 ]
+## Get User by ID
+
+### Endpoint
+GET /users/{id}
+
+### Description
+Retrieves details of a specific user by their ID.
+
+### Parameters
+
+| Name | Type | Description |
+|------|------|------------|
+| id   | int  | Unique ID of the user |
+
+### Example Request
+GET https://jsonplaceholder.typicode.com/users/1
+
+### Example Response
+
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "email": "leanne@example.com"
+}
