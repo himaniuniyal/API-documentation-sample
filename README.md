@@ -48,3 +48,48 @@ GET https://jsonplaceholder.typicode.com/users/1
   "name": "Leanne Graham",
   "email": "leanne@example.com"
 }
+
+## Create User
+
+### Endpoint
+POST /users
+
+### Description
+Creates a new user in the system.
+
+### Request Body
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+### Example Request
+POST https://jsonplaceholder.typicode.com/users
+
+### Example Response
+
+{
+  "id": 11,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+### Example Request
+POST https://jsonplaceholder.typicode.com/users
+
+### Example Response
+{
+  "id": 11,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+{
+  "name": "John Doe"
+}
+{
+  "id": 11
+}
+### Headers
+Content-Type: application/json
+
