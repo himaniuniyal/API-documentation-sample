@@ -34,5 +34,32 @@ GET https://jsonplaceholder.typicode.com/posts
 
 
 ---------------------------------------------
+## Post API Documentation
+## Base URL 
+https://jsonplaceholder.typicode.com/posts
 
+## End Point
+`Get/Posts`
+
+## Description
+Create a new data list 
+
+### Example request
+```Json
+{
+  "title": "My Post",
+  "body": "This is content",
+  "userId": 1
+}
+```
+
+### Example Response
+```json
+{
+  "id": 101,
+  "title": "My Post",
+  "body": "This is content",
+  "userId": 1
+}
+```
 
