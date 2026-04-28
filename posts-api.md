@@ -34,14 +34,18 @@ GET https://jsonplaceholder.typicode.com/posts
 
 
 ---------------------------------------------
-## Post API Documentation
+# Post API Documentation
+
 ## Base URL 
 https://jsonplaceholder.typicode.com
 
-## End Point
-`POST /Posts`
+## Create Post
 
-## Description
+### Endpoint
+```http
+POST /posts
+```
+### Description
 Create a new post
 
 ### Request Body
@@ -54,11 +58,9 @@ Create a new post
 ```
 
 ### Example Request
-
 POST /posts
 
 ### Example Response
-
 ```json
 {
   "id": 101,
@@ -68,7 +70,7 @@ POST /posts
 }
 ```
 ## Response Field
-| Field Type| Type| Description|
+| Field | Type| Description|
 |-----------|-------|-----------|
 | id| integer|Unique identifier of the post|
 | title| string|Title of the post |
