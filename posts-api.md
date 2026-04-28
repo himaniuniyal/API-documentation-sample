@@ -68,10 +68,10 @@ POST /posts
 }
 ```
 ## Response Field
-Field Type| Type| Description
+Field Type| Type| Description|
 -----------------------------
-id| integer|Unique identifier of the post
-title| string|Title of the post
-body| string|content of the post
-userid|integer| ID of the user creating the post
+id| integer|Unique identifier of the post|
+title| string|Title of the post |
+body| string|content of the post |
+userid|integer| ID of the user creating the post |
 
