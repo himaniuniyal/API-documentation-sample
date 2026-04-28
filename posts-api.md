@@ -45,7 +45,7 @@ https://jsonplaceholder.typicode.com
 Create a new post
 
 ### Request Body
-```Json
+```json
 {
   "title": "My Post",
   "body": "This is content",
@@ -68,10 +68,10 @@ POST /posts
 }
 ```
 ## Response Field
-Field Type| Type| Description|
------------------------------
-id| integer|Unique identifier of the post|
-title| string|Title of the post |
-body| string|content of the post |
-userid|integer| ID of the user creating the post |
+| Field Type| Type| Description|
+|-----------|-------|-----------|
+| id| integer|Unique identifier of the post|
+| title| string|Title of the post |
+| body| string|content of the post |
+| userId|integer| ID of the user creating the post |
 
