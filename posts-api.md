@@ -31,3 +31,8 @@ GET https://jsonplaceholder.typicode.com/posts
 | id     | integer | Unique ID of the post      |
 | title  | string  | Title of the post          |
 | body   | string  | Content of the post        |
+
+
+---------------------------------------------
+
+
