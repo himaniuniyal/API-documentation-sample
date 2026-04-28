@@ -155,4 +155,55 @@ GET /comments
 |name | string| name|
 | email| string | email id|
 | body |string | comment|
+------------------------------------------------
+
+# Comments API Documentation
+
+## Base URL
+https://jsonplaceholder.typicode.com
+
+## Endpoint
+### Endpoint
+```http
+POST /comments
+```
+
+## Description
+Creates a new comment.
+
+## Example Request
+```http
+POST /comments
+```
+
+## Request Body
+```json
+{
+  "postId": 1,
+  "name": "John Doe",
+  "email": "john@example.com",
+  "body": "This is a comment"
+}
+```
+
+## Example Response 
+```json
+{
+  "id": 501,
+  "postId": 1,
+  "name": "John Doe",
+  "email": "john@example.com",
+  "body": "This is a comment"
+}
+```
+## Response Fields
+|Name|Type|Description|
+|---|---|---|
+|id |integer | unique identification number|
+| postId| integer| post ID|
+| name | string |name|
+|email| string| email|
+|body |string |comment|
+
+
 
