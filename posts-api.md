@@ -121,5 +121,38 @@ GET /posts/1
 | title  | string  | Title of the post                    |
 | body   | string  | Content of the post                  |
 
+----------------------------------------------------------------
+# GET API Documentation
 
+## Base URL
+https://jsonplaceholder.typicode.com/
+
+### Endpoint
+GET /comments
+
+### Description
+Retrieve a list of all comments.
+
+### Example Request
+```http
+GET /comments
+```
+### Example Response
+```json
+{ 
+    "postId": 1, 
+    "id": 1, 
+    "name": "sample text", 
+    "email": "email", 
+    "body": "sample text" 
+  }
+```
+### Response Fields
+|Field| Type| Description|
+|---|---|----|
+| postID | integer | post ID|
+|id | integer | unique user id|
+|name | string| name|
+| email| string | email id|
+| body |string | comment|
 
