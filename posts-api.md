@@ -1,4 +1,4 @@
-# Posts API Documentation
+# GET API Documentation
 
 ## Get All Posts
 
