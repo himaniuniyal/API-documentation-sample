@@ -76,4 +76,50 @@ POST /posts
 | title| string|Title of the post |
 | body| string|content of the post |
 | userId|integer| ID of the user creating the post |
+------------------------------------------------------
+
+# GET API Documentation
+
+## Base URL 
+https://jsonplaceholder.typicode.com/
+
+## GET Post By ID
+
+### Endpoint
+```http
+GET /posts/{id}
+```
+- `{id}` = dynamic parameter
+
+### Description
+Retrieves a single post by its ID.
+
+### Parameters
+|Name | Type |Description|
+|---------|-----|-----|
+|id | integer| unique ID of the post|
+
+### Example Request
+```http
+GET /posts/1
+```
+
+### Response Example
+```json
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sample title",
+  "body": "sample text"
+}
+```
+### Response Fields
+| Field   | Type    | Description                          |
+|--------|--------|--------------------------------------|
+| userId | integer | ID of the user who created the post  |
+| id     | integer | Unique identifier of the post        |
+| title  | string  | Title of the post                    |
+| body   | string  | Content of the post                  |
+
+
 
