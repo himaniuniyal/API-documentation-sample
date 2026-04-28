@@ -36,15 +36,15 @@ GET https://jsonplaceholder.typicode.com/posts
 ---------------------------------------------
 ## Post API Documentation
 ## Base URL 
-https://jsonplaceholder.typicode.com/posts
+https://jsonplaceholder.typicode.com
 
 ## End Point
-`Get/Posts`
+`POST /Posts`
 
 ## Description
-Create a new data list 
+Create a new post
 
-### Example request
+### Request Body
 ```Json
 {
   "title": "My Post",
@@ -53,7 +53,12 @@ Create a new data list
 }
 ```
 
+### Example Request
+
+POST /posts
+
 ### Example Response
+
 ```json
 {
   "id": 101,
@@ -62,4 +67,11 @@ Create a new data list
   "userId": 1
 }
 ```
+## Response Field
+Field Type| Type| Description
+-----------------------------
+id| integer|Unique identifier of the post
+title| string|Title of the post
+body| string|content of the post
+userid|integer| ID of the user creating the post
 
